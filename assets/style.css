@@ -23,5 +23,13 @@ ul{
 li a{
     text-decoration: none;
 }
+main{
+    height: 600px;
+}
+footer{
+    background-color: yellow;
+    text-align: center;
+    
+}
 
 

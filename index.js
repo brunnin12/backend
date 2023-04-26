@@ -8,13 +8,16 @@
     total.addEventListener('click', ()=>{
         let qtd_produto = document.getElementById('qtd_produto').value
         let preco_produto = document.getElementById('preco_produto').value
+        // console.log(qtd_produto)
 
         qtd.push(qtd_produto)
-        preco.push(preco.produto)
+        preco.push(preco_produto)
+        // console.log(qtd)
 
         let soma = 0.0  
         for(i=0;i<preco.lenght;i++){
             soma = soma + (qtd[i]*preco[i])
+            console.log()
         }
         valor_total.innerHTML = ''
             for(i=0;i<preco.lenght;i++){
